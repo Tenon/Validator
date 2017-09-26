@@ -1,0 +1,20 @@
+{
+    "name": "Tenon/Validator",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tenon\\Validator\\": "./src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
